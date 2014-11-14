@@ -28,6 +28,9 @@ gem 'spring', group: :development
 
 gem 'rails_12factor', group: :production
 
+# Enable ActiveRecord session store
+gem 'activerecord-session_store'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
