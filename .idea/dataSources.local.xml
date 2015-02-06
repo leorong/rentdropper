@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rentdropper: development" uuid="4e78c5fb-d16c-4b6d-b0e5-08a49bc791ab">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <schema-pattern>rentdropper_development.pg_catalog rentdropper_development.public</schema-pattern>
+      <default-schemas>rentdropper_development.pg_catalog rentdropper_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails rentdropper: test" uuid="e4b63e17-2c56-4f1c-97e5-a1099dd5f8d1">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <schema-pattern>rentdropper_test.pg_catalog rentdropper_test.public</schema-pattern>
+      <default-schemas>rentdropper_test.pg_catalog rentdropper_test.public</default-schemas>
+    </data-source>
+    <data-source name="Rails rentdropper: production" uuid="0cf7369b-1659-4b26-b317-6f1d3f2fbf51">
+      <first-sync>true</first-sync>
+      <user-name>rentdropper</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfefdfe4dffedfeedff8dfe5dffadffadfefdff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
