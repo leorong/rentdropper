@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1263858212">
+  <component name="DataSourceManagerImpl" format="xml" hash="3733190882">
     <data-source source="LOCAL" name="Rails rentdropper: development" uuid="4e78c5fb-d16c-4b6d-b0e5-08a49bc791ab">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

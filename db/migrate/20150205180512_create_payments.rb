@@ -13,9 +13,9 @@ class CreatePayments < ActiveRecord::Migration
     end
 
     create_table :leases do |t|
-      t.belongs_to :renters, index: true
-      t.belongs_to :owners, index: true
-      t.belongs_to :properties, index: true
+      t.references :renter, index: true
+      t.references :owner, index: true
+      t.references :property, index: true
       t.float :pmt_amount
       t.integer :due_date
       t.datetime :start_date
@@ -23,7 +23,7 @@ class CreatePayments < ActiveRecord::Migration
     end
 
     create_table :payments do |t|
-      t.belongs_to :lease, index: true
+      t.references :lease, index: true
       t.integer :pmt_month
       t.integer :pmt_year
       t.float :pmt_amount
