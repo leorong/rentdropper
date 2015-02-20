@@ -17,18 +17,18 @@ ActiveRecord::Schema.define(version: 20150205180512) do
   enable_extension "plpgsql"
 
   create_table "leases", force: true do |t|
-    t.integer  "renters_id"
-    t.integer  "owners_id"
-    t.integer  "properties_id"
+    t.integer  "renter_id"
+    t.integer  "owner_id"
+    t.integer  "property_id"
     t.float    "pmt_amount"
     t.integer  "due_date"
     t.datetime "start_date"
     t.datetime "end_date"
   end
 
-  add_index "leases", ["owners_id"], name: "index_leases_on_owners_id", using: :btree
-  add_index "leases", ["properties_id"], name: "index_leases_on_properties_id", using: :btree
-  add_index "leases", ["renters_id"], name: "index_leases_on_renters_id", using: :btree
+  add_index "leases", ["owner_id"], name: "index_leases_on_owner_id", using: :btree
+  add_index "leases", ["property_id"], name: "index_leases_on_property_id", using: :btree
+  add_index "leases", ["renter_id"], name: "index_leases_on_renter_id", using: :btree
 
   create_table "owners", force: true do |t|
     t.integer "venmo_id"
